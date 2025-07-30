@@ -5,19 +5,20 @@ body {
 }
 
 
+.inputContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .listContainer {
-    width: 400px;
-    height: 500px;
-    justify-content: space-evenly;
     border-style: solid;
-    border-radius: 2%;
     border-width: 2px;
     margin: 20px;
+    width: 50vw;
     display: flex;
-    
+    justify-content: space-around;
 }
 
-.priorityButton, .submitButton {
-    font-weight: bold;
+.userMessage {
+    visibility: hidden;
 }
-
