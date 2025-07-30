@@ -6,10 +6,18 @@ body {
 
 
 .listContainer {
+    width: 400px;
+    height: 500px;
+    justify-content: space-evenly;
     border-style: solid;
+    border-radius: 2%;
     border-width: 2px;
     margin: 20px;
     display: flex;
     
+}
+
+.priorityButton, .submitButton {
+    font-weight: bold;
 }
 
